@@ -308,7 +308,7 @@ header {
 .host-container {
     background-color: rgba(53, 17, 101, 0.4);
     border-radius: 40px;
-    padding: 40px 60px;
+    padding: 40px 10px;
 }
 
 .host-container p {
@@ -480,7 +480,7 @@ footer {
     }
 
     .features-section .primary-container {
-        padding: 40px 5% 0;
+        padding: 40px 5% 40px;
     }
 
     .features-section h2 {
@@ -701,7 +701,6 @@ footer {
         gap: 50px;
     }
 
-    /* Responsive Episodes Section */
     .episodes-section h2 {
         font-size: 32px;
     }
@@ -729,9 +728,10 @@ footer {
     .episode-card p {
         font-size: 16px;
     }
+    
 
 
-
+    /* Footer Section */
     footer {
         height: 200px;
         width: 100%;
